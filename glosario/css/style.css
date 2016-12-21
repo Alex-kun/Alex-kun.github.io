@@ -1,0 +1,154 @@
+﻿body{
+margin:0;
+background-size: cover;
+background-image: url("http://euw.leagueoflegends.com/sites/default/files/styles/scale_xlarge/public/upload/champshyv-banner.jpg?itok=rWdd_c2E");
+cursor:url(http://oi65.tinypic.com/vq1wr6.jpg), auto;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+a{
+cursor:url(http://oi65.tinypic.com/vq1wr6.jpg), auto;
+}
+h1{
+font-size: 40px;
+}
+*{
+box-sizing: border-box;
+}
+
+.titlecolor{
+color: white;
+}
+.navmenu li a{
+color: white;
+text-decoration: none;
+padding: 10px;
+margin: 0;
+}
+
+.navmenu li a:hover{
+color: black;
+background-color: white;
+
+}
+
+.navmenu li{
+display: inline-block;
+padding-right: 20px;
+padding-left: 20px;
+margin: 0;
+padding-top:10px ;
+padding-bottom:9px;
+}
+.navmenu{
+width: 100%;
+background-color: #336ac4;
+padding: 0px;
+color: white;
+margin: 0;
+border-bottom: solid 1px white;
+
+}
+
+header{
+
+padding: 70px;
+padding-bottom: 40px;
+color: white;
+padding-bottom: 10px;
+
+
+
+}
+header img{
+width: 8%;
+}
+header h1{
+display: inline-block;
+margin-left: 20px;
+}
+.container{
+display: block;
+padding: 50px;
+padding-top:0px;
+
+}
+.section{
+display: inline-block;
+width: 60%;
+margin-right: 30px;
+
+background-color: white;
+padding: 30px;
+}
+aside{
+display: inline-block;
+width: 30%;
+background-color: white;
+padding: 20px;
+padding-left: 35px;
+position: fixed;
+right: 70px;
+border: 15px solid #336ac4;
+}
+article{
+background-color: #b0d8ff;
+padding: 15px;
+padding-left:25px;
+margin-bottom: 10px;
+
+}
+article img{
+width: 10%;
+border: solid white;
+}
+.article p{
+
+display: inline-block;
+
+}
+
+.sidebar li a{
+text-decoration: none;
+padding: 10px;
+
+}
+.sidebar{
+list-style-type: none;
+}
+.sidebar li{
+margin-top: 10px;
+}
+.sidebar li a:hover{
+background-color: darkred;
+color: white;
+}
+
+footer{
+background-color: black;
+padding: 30px 200px;
+color: white;
+}
+footer img{
+margin: 30px;
+}
+.icon{
+width: 10%;
+}
+.goup{
+position: fixed;
+bottom: 20px;
+right: 20px;
+background: darkred;
+padding: 10px 15px;
+display: inline-block;
+color: white;
+border: solid white 2px;
+}
+.goup a{
+color: white;
+text-decoration: none;
+}
+.lista{
+text-transform: uppercase;
+}
