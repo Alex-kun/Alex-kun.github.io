@@ -1,6 +1,6 @@
 ﻿body {
     margin:0;
-    background-color: #d1c598;
+    background-color: lightgrey;
 }
 h1{
     font-size:40px;
@@ -17,27 +17,20 @@ h2{
 
 }
 header{
-    
     border-bottom: solid 1px black;
-    
     background-image: url(../images/b2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-width: 100%;
     
-
-
-
-
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
-min-width: 100%;
-
 }
 .linkbox{
     padding:30px;
-    width:200px;
-    color: white;
+    width:270px;
+    color: black;
     margin-bottom:20px;
-    background-color: #7a7359;
+    background-color: #d1c598;
     border-radius:25px;
     margin-left:auto;
     margin-right:auto;
@@ -45,6 +38,10 @@ min-width: 100%;
     display:block;
     font-size:20px;
     text-align: center;
+}
+.linkbox:hover{
+    transition:1s ease;
+    color: black;
 }
 .container{
     margin-top:50px;
