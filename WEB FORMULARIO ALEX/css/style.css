@@ -253,6 +253,9 @@ select{
         padding:20px 10px;
        
     }
+    .section p{
+        font-size:45px;
+    }
     .navbtn{
         padding: 10px;
         margin: auto;
