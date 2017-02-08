@@ -1,0 +1,231 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Formulario WEB</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="js/javascript.js">
+        
+    </script>
+</head>
+<body>
+<script>
+    Inicio();
+</script>
+     <header>
+        Mide tu huella ecológica personal
+     </header>
+     
+     <div class="container">
+        <form action="#" method="POST">
+
+            <div class="bgheader">
+                <p>¿De qué pais eres?</p>
+
+                <input type="text" placeholder="Pais"  />
+
+                <select class="txtnone" id="iniciotxt">
+                    <option name="" value="none">
+                        -- Seleccione uno --
+                    </option>
+                    <option name="" value="Andalucia">
+                        Andalucia
+                    </option>
+                    <option name="" value="Aragon">
+                        Aragón
+                    </option>
+                    <option name="" value="Cantabria">
+                        Cantabria
+                    </option>
+                    <option name="" value="Castilla y Leon">
+                        Castilla y Leon
+                    </option>
+                    <option name="" value="Castilla-La Mancha">
+                        Castilla-La Mancha
+                    </option>
+                    <option name="" value="Cataluña">
+                        Cataluña
+                    </option>
+                    <option name="" value="Ceuta">
+                        Ceuta
+                    </option>
+                    <option name="" value="Comunidad de Madrid">
+                        Comunidad de Madrid
+                    </option>
+                    <option name="" value="Comunidad Valenciana">
+                        Comunidad Valenciana
+                    </option>
+                    <option name="" value="Extremadura">
+                        Extremadura
+                    </option>
+                    <option name="" value="Galicia">
+                        Galicia
+                    </option>
+                    <option name="" value="Islas Baleares">
+                        Islas Baleares
+                    </option>
+                    <option name="" value="Islas Canarias">
+                        Islas Canarias
+                    </option>
+                    <option name="" value="La Rioja">
+                        La Rioja
+                    </option>
+                    <option name="" value="Navarra">
+                        Navarra
+                    </option>
+                    <option name="" value="Pais Vasco">
+                        Pais Vasco
+                    </option>
+                    <option name="" value="Principado de Asturias">
+                       Principado de Asturias
+                    </option>
+                    <option name="" value="Region de Murcia">
+                       Region de Murica
+                    </option>
+                </select>
+            </div>
+<div class="menu">
+    <div class="navbtn" onclick="GeneralOn()">
+        General
+    </div>
+    <div class="navbtn" onclick="EnergiaOn()">
+        Energia
+    </div>
+    
+    <input type="reset" class="resetbtn" onclick="ResetBtn()" value="Reiniciar Formulario"/>
+</div> 
+            <div class="startform" id="Start">¡Elija una categoria y empiece el test! </div>
+           <div class="GeneralOff" id="General">
+               <div class="section">
+                   <p>¿Que edad tienes?</p>
+                   <input type="radio" name="age" id="16" value="16">
+                   <label for="16">Menos de 16 años</label>
+
+
+                   <input type="radio" name="age" id="1736" value="1736">
+                   <label for="1736">Entre 17 y 36</label>
+
+
+                   <input type="radio" name="age" id="3756" value="3756">
+                   <label for="3756">Entre 37 y 56</label>
+
+
+                   <input type="radio" name="age" id="5776" value="5776">
+                   <label for="5776">Entre 57 y 76</label>
+
+
+                   <input type="radio" name="age" id="76" value="76">
+                   <label for="76">Más de 76</label>
+               </div>
+               <div class="section">
+                   <p>¿Cómo es la casa en la que vives?</p>
+                   <input type="radio" name="house" id="chalet1" value="chalet1">
+                   <label for="chalet1">Un chalet o vivienda aislada</label>
+
+
+                   <input type="radio" name="house" id="chalet2" value="chalet2">
+                   <label for="chalet2">Un adosado</label>
+
+
+                   <input type="radio" name="house" id="chalet3" value="chalet3">
+                   <label for="chalet3">Una vivienda en un bloque de pisos</label>
+
+
+                   <input type="radio" name="house" id="chalet4" value="chalet4">
+                   <label for="chalet4">Una vivienda en una manzana de casas.</label>
+               </div>
+               <div class="section">
+                   <p>¿Cuántas personas viven en tu hogar?</p>
+                   <input type="radio" name="people" id="1" value="1">
+                   <label for="1">1</label>
+
+
+                   <input type="radio" name="people" id="2" value="2">
+                   <label for="2">2</label>
+
+
+                   <input type="radio" name="people" id="3" value="3">
+                   <label for="3">3</label>
+
+
+                   <input type="radio" name="people" id="mas3" value="mas3">
+                   <label for="mas3">Más de tres</label>
+               </div>
+               <div class="section">
+                   <p>Indica el espacio que dispones en metros cuadrados</p>
+                   <input type="radio" name="metros" id="60" value="60">
+                   <label for="60">Menos de 60 m2</label>
+
+
+                   <input type="radio" name="metros" id="61120" value="61120">
+                   <label for="61120">Entre 61 y 120 m2</label>
+
+
+                   <input type="radio" name="metros" id="121" value="121">
+                   <label for="121">Más de 121 m2</label>
+               </div>
+           </div>
+
+           <!--Bloque Energia-->
+            <div class="EnergiaOff" id="Energia">
+                <div class="section">
+                    <p>¿Cuántos elementos de calefacción tienes en casa?<br/> (cuenta todos los radiadores, estufas, etc,...)</p>
+                    <input type="radio" name="calefaccion" id="idonthave" value="">
+                    <label for="idonthave">No tengo ninguno </label>
+
+                    <input type="radio" name="calefaccion" id="algunos" value="">
+                    <label for="algunos">Tengo alguna estufa o calefactor móvil</label> 
+
+                    <input type="radio" name="calefaccion" id="yes" value="">
+                    <label for="yes">Tengo un sistema de calefacción con radiadores fijos.</label>
+                   
+                </div>
+                <div class="section">
+                    <p>¿Tienes una instalación de aire acondicionado?</p>
+                    <input type="radio" name="yynn" id="yn" value="y">
+                    <label for="yn">Si</label>
+
+
+                    <input type="radio" name="yynn" id="yn1" value="n">
+                    <label for="yn1">No</label>
+
+
+                    
+                </div>
+                <div class="section">
+                    <p>¿Cuántas personas viven en tu hogar?</p>
+                    <input type="radio" name="people" id="1" value="1">
+                    <label for="1">1</label>
+
+
+                    <input type="radio" name="people" id="2" value="2">
+                    <label for="2">2</label>
+
+
+                    <input type="radio" name="people" id="3" value="3">
+                    <label for="3">3</label>
+
+
+                    <input type="radio" name="people" id="mas3" value="mas3">
+                    <label for="mas3">Más de tres</label>
+                </div>
+                <div class="section">
+                    <p>Indica el espacio que dispones en metros cuadrados</p>
+                    <input type="radio" name="metros" id="60" value="60">
+                    <label for="60">Menos de 60 m2</label>
+
+
+                    <input type="radio" name="metros" id="61120" value="61120">
+                    <label for="61120">Entre 61 y 120 m2</label>
+
+
+                    <input type="radio" name="metros" id="121" value="121">
+                    <label for="121">Más de 121 m2</label>
+                </div>
+            </div>
+        </form>
+     </div>
+</body>
+</html>
