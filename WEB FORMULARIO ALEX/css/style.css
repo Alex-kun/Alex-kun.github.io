@@ -241,6 +241,9 @@ select{
         font-size: 25px;
         box-sizing: border-box;
     }
+    .section{
+        width:100%;
+    }
     .section label{
         width:auto;
         padding:20px 10px;
