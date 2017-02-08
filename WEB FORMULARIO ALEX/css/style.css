@@ -247,6 +247,7 @@ select{
     .section label{
         width:auto;
         padding:20px 10px;
+        font-size:30px;
     }
     .section input[type="radio"]:checked + label {
         padding:20px 10px;
@@ -284,7 +285,7 @@ select{
     }
     .resetbtn{
     position: relative;
-    right: 37%;
+    right: 31%;
     font-size: 20px;
     padding: 10px 20px;
     }
@@ -292,7 +293,7 @@ select{
         padding: 85px 0;
     }
     .section{
-        margin-top:30px;
+        margin-top:50px;
     }
     
 }
