@@ -272,6 +272,9 @@ select{
     .navbtn:first-child {
         margin-left: 0;
     }
+    .navbtn{
+        padding:25px;
+    }
     .bgheader{
         height: 270px;
     }
