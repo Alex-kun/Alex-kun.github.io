@@ -221,7 +221,7 @@ select{
 
 /*MEDIA QUERY*/
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 300px) {
    
 
     .container{
