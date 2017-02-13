@@ -165,7 +165,7 @@ footer{
         font-size: 40px;
     }
     .linkbox:hover{
-        
+        width:auto;
         background-color: #72a2d9;
         border: none;
         box-sizing: border-box;
