@@ -156,6 +156,19 @@ footer{
 /*
 
 
-    transition: background-color .25s,color .15s,box-shadow .15s,opacity .25s,filter .25s,border .15s;
-}
+    media query
+
 */
+@media screen and (max-width: 600px) {
+    .linkbox{
+        width:;
+        font-size: 40px;
+    }
+    .linkbox:hover{
+        
+        background-color: #72a2d9;
+        border: none;
+        box-sizing: border-box;
+
+    }
+}
