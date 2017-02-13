@@ -159,7 +159,7 @@ footer{
     media query
 
 */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
     .linkbox{
         width:;
         font-size: 40px;
