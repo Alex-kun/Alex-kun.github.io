@@ -161,7 +161,7 @@ footer{
 */
 @media screen and (max-width: 1024px) {
     .linkbox{
-        width:;
+        width:auto;
         font-size: 40px;
     }
     .linkbox:hover{
