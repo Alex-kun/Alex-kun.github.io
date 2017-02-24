@@ -1,0 +1,29 @@
+[
+    {
+        "display": "Curriculum Vitae",
+        "priority": "true",
+        "url": "https://alex-kun.github.io/cv/index.html"
+    },
+    {
+        "display": "Proyecto Vida Sostenible",
+        "priority": "false",
+        "url": "https://alex-kun.github.io/formulario/index.html"
+    },
+    {
+        "display": "OtaGames Web",
+        "priority": "false",
+        "url": "https://alex-kun.github.io/otagames/index.html"
+    },
+    {
+        "display": "Glosario",
+        "priority": "false",
+        "url": "https://alex-kun.github.io/glosario/index.html"
+    },
+    {
+        "display": "Reto Hover",
+        "priority": "false",
+        "url": "https://alex-kun.github.io/reto/index.html"
+    }
+
+
+]
