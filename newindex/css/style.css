@@ -88,7 +88,7 @@ body{
     height: 40px;
     border-top-left-radius:50px ;
     border-top-right-radius:50px ;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     cursor: pointer;
@@ -103,7 +103,7 @@ body{
     height: 450px;
     border-top-left-radius:50px ;
     border-top-right-radius:50px ;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     cursor: pointer;
