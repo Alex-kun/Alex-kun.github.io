@@ -155,9 +155,9 @@ color: black;
     border-radius: 50px;
     background-repeat: no-repeat;
     background-size: cover;
--webkit-box-shadow: 5px 5px 28px -5px rgba(0,0,0,0.75);
--moz-box-shadow: 5px 5px 28px -5px rgba(0,0,0,0.75);
-box-shadow: 5px 5px 28px -5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 5px 13px 28px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 13px 28px -5px rgba(0,0,0,0.75);
+box-shadow: 5px 13px 28px -5px rgba(0,0,0,0.75);
 }
 
 .social{
