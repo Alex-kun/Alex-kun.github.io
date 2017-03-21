@@ -18,7 +18,9 @@ body{
 ::-webkit-scrollbar { 
     display: none; 
 }
-
+.email{
+    color: darkblue;
+{
 .title{
     border-top:white 2px solid;
     border-bottom:white 2px solid;
